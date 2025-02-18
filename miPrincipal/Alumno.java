@@ -3,6 +3,9 @@ public class Alumno extends Persona{
     private String carrera;
     private int notas[];
 
+    public Alumno(){
+        
+    }
     public Alumno(String nombre, int edad, String curp, String carrera){
         super(nombre, edad, curp); //invoca constructor clase base
         this.carrera = carrera;
