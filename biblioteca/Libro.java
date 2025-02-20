@@ -59,4 +59,5 @@ public class Libro {
         return "ID: " + idLibro + "\nTítulo: " + titulo + "\nAutor: " + autor + 
                "\nISBN: " + isbn + "\nDisponible: " + (disponibilidad ? "Sí" : "No");
     }
+ 
 }
