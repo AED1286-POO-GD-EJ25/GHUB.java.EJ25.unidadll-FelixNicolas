@@ -28,4 +28,12 @@ public class Bibliotecario extends Persona{
     public void generarReporte(){
         System.out.println("Reporte en proceso");
     }
+
+    public int getNumEmpleado(){
+        return this.numEmpleado;
+    }
+
+    public void setNumEmpleado(int numEmpleado){
+        System.out.println("Numero de empleado setted");
+    }
 }

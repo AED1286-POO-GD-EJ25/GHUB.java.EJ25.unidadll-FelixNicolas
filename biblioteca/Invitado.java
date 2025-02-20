@@ -19,4 +19,12 @@ public class Invitado extends Persona{
             System.out.println("No hay disponibilidad");
         }
     }
+
+    public String getInstitucion(){
+        return this.institucion;
+    }
+
+    public void setInstitucion(String institucion){
+        System.out.println("Institucion setted");
+    }
 }
